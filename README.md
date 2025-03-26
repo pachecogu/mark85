@@ -12,24 +12,25 @@ Certifique-se de que as seguintes ferramentas estão instaladas no seu sistema:
 
 Configuração do Ambiente
 
-ACESSAR O GIT BASH
+1. ACESSAR O GIT BASH
+   - Abra o terminal Git Bash no seu computador.
 
-Abra o terminal Git Bash no seu computador.
-CRIAR E ACESSAR O DIRETÓRIO
+2. CRIAR E ACESSAR O DIRETÓRIO
 
-Execute os comandos:
-mkdir -p /c/QAx/projects/
-cd /c/QAx/projects/
-CLONAR O REPOSITÓRIO
+   - Execute os comandos:
+      - mkdir -p /c/QAx/apps/
+      - cd /c/QAx/apps/
 
-Execute o comando:
-git clone https://github.com/pachecogu/mark85-robot-express.git
-INSTALAR DEPENDÊNCIAS
+3. CLONAR O REPOSITÓRIO
+   - Execute o comando:
+      - git clone 
 
-Navegue até a pasta do projeto e instale os requisitos:
-cd mark85-robot-express
-pip install -r requirements.txt
-EXECUTAR OS TESTES
+4. INSTALAR DEPENDÊNCIAS
+   - Navegue até a pasta do projeto e instale os requisitos:
+      - cd mark85-robot-express
+      - pip install -r requirements.txt
 
-Execute o comando:
-robot -d ./logs ./tests
+5. EXECUTAR OS TESTES
+    - Execute o comando:
+       - robot -d ./logs ./tests
+   
