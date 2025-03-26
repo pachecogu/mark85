@@ -23,14 +23,18 @@ Configuração do Ambiente
 
 3. CLONAR O REPOSITÓRIO
    - Execute o comando:
-      - git clone 
+      - git clone https://github.com/pachecogu/mark85.git
 
 4. INSTALAR DEPENDÊNCIAS
    - Navegue até a pasta do projeto e instale os requisitos:
-      - cd mark85-robot-express
+      - cd mark85
       - pip install -r requirements.txt
 
-5. EXECUTAR OS TESTES
-    - Execute o comando:
-       - robot -d ./logs ./tests
+5. EXECUTAR A APLICACAO
+   - Execute o comando:
+      - cd /c/QAx/apps/web
+      - npm run dev
+   - Abra outro terminal e execute o comando:
+      - cd /c/QAx/apps/app
+      - npm run dev
    
